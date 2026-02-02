@@ -12,7 +12,7 @@ f3 = lambda A: (0.9 * A) / (0.9 * A + 0.25 * (1 - A))
 plt.figure(figsize=(8, 6))
 
 plt.plot(A, f1(A), label='"the sneg of..." (postnominal)')
-plt.plot(A, f2(A), label='"a..." (either)', linestyle='--')
+plt.plot(A, f2(A), label='"a..." (either)')
 plt.plot(A, f3(A), label='"a tufa\'s dax..." (prenominal)')
 
 plt.xlabel('Prior: P(animate)')
